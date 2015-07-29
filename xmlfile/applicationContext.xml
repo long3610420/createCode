@@ -1,0 +1,12 @@
+	<bean id="ctivityExhibitionErr" class="com.pojo.CtivityExhibitionErr" scope="prototype"/>
+	<bean id="ctivityExhibitionErrDao" class="com.dao.CtivityExhibitionErrDao" autowire="byName">
+	  <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+	</bean>
+	<bean id="ctivityTrainErr" class="com.pojo.CtivityTrainErr" scope="prototype"/>
+	<bean id="ctivityTrainErrDao" class="com.dao.CtivityTrainErrDao" autowire="byName">
+	  <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+	</bean>
+	<bean id="fficeExpensesErr" class="com.pojo.FficeExpensesErr" scope="prototype"/>
+	<bean id="fficeExpensesErrDao" class="com.dao.FficeExpensesErrDao" autowire="byName">
+	  <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+	</bean>

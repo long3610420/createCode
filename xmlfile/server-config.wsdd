@@ -1,0 +1,24 @@
+      <service name="CtivityExhibitionErr" provider="java:RPC">  
+        		  <parameter name="className" value="com.service.impl.CtivityExhibitionErrManagerImpl" />   
+        				  <!-- * 代表所有的方法都暴露 -->        
+         <parameter name="allowedMethods" value="*" />        
+         <parameter name="scope" value="request" />    
+				<messageReceiver
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+      </service>
+      <service name="CtivityTrainErr" provider="java:RPC">  
+        		  <parameter name="className" value="com.service.impl.CtivityTrainErrManagerImpl" />   
+        				  <!-- * 代表所有的方法都暴露 -->        
+         <parameter name="allowedMethods" value="*" />        
+         <parameter name="scope" value="request" />    
+				<messageReceiver
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+      </service>
+      <service name="FficeExpensesErr" provider="java:RPC">  
+        		  <parameter name="className" value="com.service.impl.FficeExpensesErrManagerImpl" />   
+        				  <!-- * 代表所有的方法都暴露 -->        
+         <parameter name="allowedMethods" value="*" />        
+         <parameter name="scope" value="request" />    
+				<messageReceiver
+				class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver" />
+      </service>
